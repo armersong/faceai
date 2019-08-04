@@ -1,0 +1,12 @@
+[package]
+name = "demo"
+version = "0.1.0"
+authors = ["armer song <armer_song@qq.com>"]
+edition = "2018"
+workspace = "../.."
+
+[dependencies]
+faceai= {path="../.."}
+image="0.22"
+log = "0.4"
+env_logger = "0.6"

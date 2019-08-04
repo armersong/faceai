@@ -1,0 +1,15 @@
+[package]
+name = "faceai"
+version = "0.1.0"
+authors = ["armer song <armer_song@qq.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+
+
+[workspace]
+members = [
+  "./",
+  "examples/demo",
+]
